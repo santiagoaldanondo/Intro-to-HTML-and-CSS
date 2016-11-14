@@ -1,0 +1,48 @@
+body {
+	font-family: 'Raleway';
+	background-color: #eeeeee;
+	margin: 10px 0px;
+	padding: 10px 0px;
+}
+
+
+header {
+	margin-top: 0px;
+	color: #222200;
+	text-align: center;
+	background-image: url('backheader.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+
+}
+
+header h1 {
+	padding-top: 30px;
+}
+
+body div {
+	margin: 20px 50px;
+}
+
+footer {
+	background-color: #777777;
+}
+
+#photo_id {
+	float: right;
+	margin: 20px 40px 20px 20px;
+	padding: 10px;
+	background-color: #222200;
+	max-width: 100px;
+	max-height: 140px; 
+}
+
+table {
+	max-width: 60%;
+	text-align: left;
+}
+
+th, td {
+	padding: 5px 30px;
+}
