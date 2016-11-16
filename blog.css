@@ -1,8 +1,6 @@
 body {
 	font-family: 'Raleway';
 	background-color: #eeeeee;
-	margin: 10px 0px;
-	padding: 10px 0px;
 }
 
 
@@ -14,6 +12,7 @@ header {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	width: 100%;
+	min-height: 300px;
 
 }
 
@@ -21,26 +20,63 @@ header h1 {
 	padding-top: 30px;
 }
 
-body div {
-	margin: 20px 50px;
+nav {
+	margin-top: 300px;
+	margin: auto;
+	height: 30px;
+	width: 80%;
+}
+
+nav ul {
+	float: right;
+	margin: 0px;
+}
+
+nav ul li {
+	background-color: #777777;
+	display: inline;
+	padding: 5px;
+}
+
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+nav a:hover {
+	color: black;
+}
+
+
+body div, body article {
+	margin-top: 20px;
+	margin: auto;
+	width:80%;
+	text-align: left;
 }
 
 footer {
+	border-top: 5px solid white;
+	margin-top: 20px;
+	padding: 20px;
 	background-color: #777777;
 }
 
 #photo_id {
 	float: right;
 	margin: 20px 40px 20px 20px;
-	padding: 10px;
-	background-color: #222200;
+	border: 3px solid #222200;
+	border-radius: 5px;
 	max-width: 100px;
 	max-height: 140px; 
+	box-shadow: 5px 5px 5px #888888;
 }
 
 table {
 	max-width: 60%;
 	text-align: left;
+	
 }
 
 th, td {
